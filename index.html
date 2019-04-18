@@ -4,58 +4,118 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Best Pizza Ever</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Cabin|Inconsolata|Nunito|Nunito+Sans|Pacifico|Quicksand|Rubik|VT323" rel="stylesheet">
 </head>
 <body>
-<h1 id="intro">
-    <div><h1 id="name">Pizzaria La DevLeauge</h1>
-    <h2 id="tagLine">Functional Pizza For All!</h2>
-    <img src="assets/pizzaMan.jpeg" alt="logo">
-    <nav id="topMenu">
-        <li id="guide"><a href="#today">Today's Special</a></li>
-        <li id="guide"><a href="#menu">Menu</a></li>
-        <li id="guide"><a href="#subscribe">Subscribe</a></li>
-        <li id="guide"><a href="#visit">Visit</a></li>
+
+    </div>
+    <nav class="topMenu">
+        <div class="guide"><a href="#today">Today's Special</a></div>
+        <div class="guide"><a href="#menu">Menu</a></div>
+        <div class="guide"><a href="#subscribe">Subscribe</a></div>
+        <div class="guide"><a href="#visit">Visit</a></div>
     </nav>
 </div>
-</h1>
+</div>
 
-<section id="menu">
-    <div class="content">
-        <h3 class="sectionTitle">Menu</h3>
-        <div class="pizza"><p class="pizzaName">Object of My Desire</p><p class="description">A programmers delight, this classic has string cheese, an array of BBQ meats and 1 special sauce.</p><p class="price">19.99</p></div>
-    </div>
+        <header>
+                <div id="title">
+                    <div id="t1">Pizzaria</div>
+                    <div id="t2">La</div>
+                    <div id="t3">DevLeauge</div>
+                </div>
+                <div id="tagLine">Functional Pizza For All!</div>
+              </header>
+
+<section>
+    <div id="logoHeader"><img src="assets/pizzaMan.jpeg" alt="logo"></div>
+    <div id="main"><h1>Our Pizza Promise</h1></div>
+    <div id="main"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa facilis, labore debitis nesciunt ipsam odio corporis architecto reiciendis voluptas ab quibusdam ratione rerum tempore voluptatibus libero cumque dignissimos vero hic!</p></div>
 </section>
 
+
 <section id="menu">
-        <div class="content">
-            <h3 class="sectionTitle">Menu</h3>
-            <div class="pizza"><p class="pizzaName">Four Loop</p><p class="description">Spin your wheel with this quattro cheese mix doused in garlic and truffle oil. Loop there it is!</p><p class="price">44.44</p></div>
+<div id="t1">Our Menu</div>
+<div class="module mid">
+        <h2>Object of My Desire</h2>
+        <p>A programmers delight, this classic has string cheese, an array of BBQ meats and 1 special sauce.</p>
+        <span>$19.99</span>
+      </div>
+      
+      <div class="module mid">
+        <h2>Four Loop</h2>
+        <p>Spin your wheel with this quattro cheese mix doused in garlic and truffle oil. Loop there it is! Loop there it is! Loop there it is!</p>
+        <span>$44.44</span>
+      </div>
+
+      <div class="module mid">
+        <h2>Conditional Love</h2>
+        <p>This island favorite doesn't give you a chance to say no. Korean bulgogi meat, kim chee, mozzarella cheese and onions always returns true! Boo~Ya!</p>
+        <span>$22.14</span>
+    </div>
+
+<br style="clear: both;">
+      
+    <div class="module mid">
+            <h2>The DOM</h2>
+            <p>This dynamic blend of Duck, Olives and Mango will change your original thought of what a pizza should be. The only thing constant is change for this bad boy!</p>
+            <span>$16.99</span>
+          </div>
+      
+
+    <div class="module mid">
+        <h2>Conjunc Function</h2>
+        <p>Create your own pie by passing in handpicked fresh ingredients. Invoke your appetite and creativity! Mamma Mia return back to glory!</p>
+        <span>$17.02</span>
+                  </div>
+
+    <div class="module mid">
+        <h2>BBQ Chicken</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus nulla veniam nostrum deleniti aspernatur totam tenetur quos dolor nisi</p>
+        <span>$10.00</span></div>
+</div>
+
+
+<div class="contentSub">
+
+    <section id="subscribe">
+    <div id="t3">Subscribe</div>
+    <h3>Sign up for our special deals!</h3>
+
+    <form action="action_page.php">
+        <div class="row">
+        <div class="col-25">
+            <label for="fname">First Name</label>
+         </div>
+        <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="type">
         </div>
+        </div>
+
+        <div class="row">
+        <div class="col-25">
+        <label for="lname">Last Name</label>
+        </div>
+        <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="type">
+        <div class="row">
+        <div class="col-25">
+                      
+        <label for="email">Email</label>
+        </div>
+        <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="type">
+        </div>
+        </div>
+        
     </section>
 
-    <section id="menu">
-            <div class="content">
-                <h3 class="sectionTitle">Menu</h3>
-                <div class="pizza"><p class="pizzaName">Conditional Love</p><p class="description">This island favorite doesn't give you a chance to say no. Korean bulgogi meat, kim chee, mozzarella cheese and onions always returns true! Boo~Ya!</p><p class="price">22.14</p></div>
-            </div>
-        </section>
 
-        <section id="menu">
-                <div class="content">
-                    <h3 class="sectionTitle">Menu</h3>
-                    <div class="pizza"><p class="pizzaName">The DOM</p><p class="description">This dynamic blend of Duck, Olives and Mango will change your original thought of what a pizza should be. The only thing constant is change for this bad boy!</p><p class="price">16.99</p></div>
-                </div>
-            </section>
 
-            <section id="menu">
-                    <div class="content">
-                        <h3 class="sectionTitle">Menu</h3>
-                        <div class="pizza"><p class="pizzaName">Conjunction Function</p><p class="description">Create your own pie by passing in handpicked fresh ingredients. Invoke your appetite and creativity! Mamma Mia return back to glory!</p><p class="price">17.02</p></div>
-                    </div>
-                </section>
 
 <section id="visit">
-    <div class="content"><h3 class="sectionTitle">Visit</h3>
+    <div class="content"><h4 class="sectionTitle">Visit</h4>
     <ul id="addy"><li id="street">2800 Woodlawn Dr.<br>Honolulu, HI 96822</li>
     <li id="map"><a href="https://www.google.com/maps?ll=21.223782,-157.899628&z=13&t=m&hl=en&gl=US&mapclient=embed&cid=15585431400080676543" target="_blank">View Map</a></li></ul></div>
     <li class="hours">Monday - Saturday</li>
