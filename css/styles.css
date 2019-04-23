@@ -54,6 +54,33 @@ header {
     text-align: center;
   }
 
+  #t4 {
+    margin: 0;
+    font-size: 75px;
+    white-space: wrap;
+    font-family: 'Pacifico', cursive;
+    color: #666666;
+    text-align: center;
+  }
+
+  #t4_a {
+    margin: 0;
+    font-size: 25px;
+    white-space: wrap;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    text-align: center;
+  }
+
+  #t3_a{
+    margin-left: 35px;
+    font-size: 125px;
+    white-space: wrap;
+    font-family: 'Pacifico', cursive;
+    color: red;
+    text-align: center;
+  }
+
 #tagLine {
     position: absolute;
     top: 58%;
@@ -86,7 +113,7 @@ h1 {
 
 h3 {
     position: absolute;
-    top: 290%;
+    top: 310%;
     left: 45%;
     margin: 0;
     font-size: 25px;
@@ -136,6 +163,8 @@ img{
     margin: 20px auto;
     margin-bottom: 50px
 }
+
+
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
 
@@ -211,14 +240,14 @@ input[type=text], select, textarea{
   }
 
   /* Style the container */
-.action_page.php{
+.contentSub{
     border-radius: 2px;
     padding: 75px;
-    background-size: none;
-    width: 40px;
-    height: 20px;
-    margin: 20px 0 0 20px;
-    position: none;
+    background-size: cover;
+    width: 800px;
+    height: 550px;
+    margin: 245px 245px 145px 145px;
+    position: center;
     float: none;
     border: 1px solid black
   }
